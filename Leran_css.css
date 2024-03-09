@@ -1,0 +1,40 @@
+/* .conatiner>p
+{
+    background-color: hwb(190 91% 7% / 0.9);
+} */
+/* div[class]
+{
+    background-color: red;
+    color: white;
+}
+div[class="contaner 5"]
+{
+    background-color: black;
+    color: white;
+} */
+/* div[class^="contaner"]
+{
+    background-color: pink;
+    color: red;
+} */
+/* div[class$="contaner3"]
+{
+    background-color: black;
+    color: white;
+    font-size: xx-large;
+} */
+/* div[class*="contaner"]
+{
+    background-color: black;
+    color: aquamarine;
+} */
+
+table
+{
+    border: 1px;
+}
+tr
+{
+   height: 50px;
+   width: 100px !important;
+}

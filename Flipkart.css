@@ -88,3 +88,93 @@
     outline: none;
     border-radius: 5px;
   }
+ .cards
+  {
+    display: ruby-text;
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 15px;
+  }
+  .Four
+  {
+    background-color: #ffffff;
+    padding: 10px;
+    margin-top: 15px;
+    margin-bottom: 1rem;
+  }
+  .Four>img{
+    width: 55%;
+    border: 1px solid lightgrey;
+    height: 6rem;
+    margin-left: 300px;
+    border-radius: 5px;
+  }
+  .Five>.cards{
+    display: flex;
+    background-color: white;
+    padding: 15px;
+    margin-bottom: 15px;
+    justify-content: left;
+    gap: 59px;
+    width: 68rem;
+  }
+  .card
+  {
+    padding: 5px 31px;
+    align-items: center;
+    margin-top: 75px;
+    cursor: pointer;
+    line-height: 5px;
+  }
+  .card p:first-of-type {
+    margin-top: 15px;
+  }
+  .cards>h5
+  {
+    position: absolute;
+  }
+  .card>img
+  {
+    height: 150px;
+    width: 80px;
+    transition: transform 0.5s ease;
+    margin-top: 5px;
+  }
+  .card>img:hover
+  {
+    transform: scale(1.1);
+  }
+  .card-last>img
+  {
+    height: 329px;
+    width: 211px;
+    position: relative;
+    left: 70rem;
+    bottom: 344px;
+  }
+  .col-4>img
+  {
+    width: 442px;
+  }
+  .Six>.row
+  {
+    position: relative;
+    bottom: 20rem;
+    margin-right: 0px;
+    background-color: white;
+  }
+  .Six>img
+  {
+    width: 442px;
+  }
+  .Saven>.row
+  {
+    position: relative;
+    bottom: 19rem;
+    margin-right: 0px;
+    background-color: white;
+  }
+  .Saven>img
+  {
+    width: 440px;
+  }

@@ -1,0 +1,230 @@
+body
+{
+    background-color: #f8f7f4;
+}
+.container-fluid{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-width: 500px;
+    flex-wrap: wrap;
+    padding: 30px 45px;
+}
+.logo
+{
+    position: relative;
+    top: -1px;
+}
+.links
+{
+    display: flex;
+    gap: 25px;
+}
+.links>a
+{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    word-spacing: 2px;
+}
+.serach-box>img
+{
+    position: relative;
+    left: 200px;
+    top: -1px;
+}
+input[type="text"]
+{
+    width: 225px;
+    height: 50px;
+    border-radius: 25px;
+    padding: 10px 10px 10px 35px;
+    border: none;
+    outline: none;
+    margin-left: 150px;
+}
+input::placeholder
+{
+    color:#6e6d7a;
+}
+.buttons
+{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.buttons>button
+{
+    background-color: black;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 50px;
+    font-size: 15px;
+    font-weight: 600;
+    border:none;
+}
+.buttons>span
+{
+    font-weight: 500;
+}
+/* ---------------- */
+
+.button-section
+{
+    display: flex;
+}
+.button-section>button
+{
+   margin: auto;
+   font-family: "Source Serif 4", Georgia, serif;
+   margin-top: 80px;
+    width: 24%;
+    padding: 10px 16px;
+    border: 44px;
+    color: black;
+    letter-spacing: 0.1px;
+    border-radius: 46px;
+    animation: changeColor 9s infinite alternate;
+}
+@keyframes changeColor{
+    0% {
+      background-color: #d7c6ee; /* Start with red */
+    }
+    50% {
+      background-color: #fedb7f; /* Change to blue halfway through */
+    }
+    100% {
+      background-color:  #faade8; /* Change back to red at the end */
+    }
+
+}
+.First-Content
+{
+    margin: 40px auto 24px;
+    font-family: "Source Serif 4", Georgia, serif;
+    font-weight: 400;
+    letter-spacing: -0.5px;
+    line-height: 56px;
+    font-size: 72px;
+    line-height: 76px;
+    text-align: center;
+}
+.After-btn-content{
+    text-align: center;
+}
+.Second-Content
+{
+    font-size: 20px;
+    line-height: 36px;
+}
+.Get-started-btn
+{
+ background-color: #0d0c22;
+ color: white;
+ padding: 15px 25px;
+    border-radius: 40px;
+    border: none;
+    font-weight: 500;
+    font-size: 14px;
+    margin-bottom: 35px;
+}
+/* ---------image card slider start-------- */
+
+#marquee .container {
+    overflow: hidden;
+    width: 100%;
+}
+
+#marquee .pic-container {
+    display: flex;
+    animation: marquee 20s infinite linear;
+}
+
+/* #marquee:hover {
+    animation-play-state: paused;
+} */
+
+#marquee .pic-container .pic {
+    flex-basis: 20%;
+    flex-shrink: 0;
+}
+.img-content>button
+{
+    background-color: transparent;
+    border: 1px solid lightgray;
+}
+#marquee img {
+    width: 100%;
+    object-fit: cover;
+    border: 1px solid rgba(238, 231, 231, 0.9);
+    border-radius: 40px;
+}
+.pic{
+    padding:10px;
+}
+.img-content
+{
+    position: relative;
+    bottom: 110px;
+    line-height: 15px;
+    color: white;
+    font-weight: 500;
+    padding: 5px;
+}
+@media (max-width: 1024px) {
+    #marquee .pic-container .pic {
+        flex-basis: 25%;
+    }
+}
+
+@media (max-width: 768px) {
+    #marquee .pic-container .pic {
+        flex-basis: 33.33%;
+    }
+}
+
+@keyframes marquee {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+@media (max-width: 1024px) {
+    @keyframes marquee {
+        0% {
+            transform: translateX(0);
+        }
+        100% {
+            transform: translateX(-125%);
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    @keyframes marquee {
+        0% {
+            transform: translateX(0);
+        }
+        100% {
+            transform: translateX(-186.65%);
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ---------image card slider End-------- */

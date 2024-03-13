@@ -1,0 +1,22 @@
+.d-flex>button
+{
+    border-radius: 0px;
+    padding: 5px 10px;
+    background-color: black;
+    border: none;
+    font-weight: 500;
+}
+.d-flex>button:hover
+{
+    background-color: black;
+}
+.nav-item
+{
+    color: #d1d1d1;
+    font-weight: 500;
+}
+.box::before {
+    content: "Before ";
+    color: red;
+  }
+  

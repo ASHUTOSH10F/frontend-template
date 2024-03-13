@@ -1,0 +1,27 @@
+body
+{
+    font-family: Inter, sans-serif;
+}
+/*------------------ Navbar-start------------*/
+.nav-item
+{
+    font-size: 17px;
+    color: #000;
+    font-weight: 600;
+}
+.d-flex>button
+{
+    background: #00baf2;
+    padding: 5px 5px 5px 20px;
+    border-radius: 20px;
+    font-weight: 600;
+}
+.d-flex>button>i
+{
+    padding: 8px 7px 1px 7px;
+    border-radius: 15px;
+    background-color: darkblue;
+}
+
+
+/*------------------ Navbar-End------------*/

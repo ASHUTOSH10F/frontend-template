@@ -218,11 +218,6 @@ input::placeholder
     border: 1px solid lightgray;
 }
 
-
-
-
-
-
 /* ---------image card slider End-------- */
 
 
@@ -300,7 +295,7 @@ input::placeholder
         font-size: 32px;
     }
 }
-@media screen and (min-width: 425px) and (max-width: 575px){
+@media only screen and (max-width: 575px){
 
     .button-section>button {
         width: auto;
@@ -311,7 +306,7 @@ input::placeholder
         font-size: 32px;
     }
 }
-@media screen and (min-width: 375px) and (max-width: 424px){
+@media only screen and (max-width: 424px){
 
     .button-section>button {
         width: auto;

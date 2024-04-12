@@ -1,0 +1,18 @@
+.main-section
+{
+    display: grid;
+    place-items: center;
+}
+.box
+{
+    height: 600px;
+    width: 500px;
+    background: linear-gradient(45deg, black, lightblue);
+    border-radius: 20px;
+}
+#check_logo
+{
+    position: relative;
+    bottom: 45px;
+    width: 100px;
+}

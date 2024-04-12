@@ -1,0 +1,155 @@
+.container-fluid
+{
+    padding-left: 70px;
+}
+.Navbar_btn
+{
+    border-radius: 20px;
+    background-color: #50d387;
+    color: black;
+    padding: 5px;
+    border: none;
+    width: 100px;
+}
+.nav-item>a
+{
+    color: black;
+    font-weight: 500;
+}
+.navbar-collapse>ul
+{
+    display: flex;
+    align-items: center;
+}
+/* Second-portion */
+.content1
+{
+    font-size: 4vw;
+    font-weight: 700;
+    font-family: 'Poppins';
+    text-align: left;
+    position: relative;
+    top: 190px;
+    left: 85px;
+}
+.content2
+{
+    font-weight: 350;
+    font-size: 1.4vw;
+    position: relative;
+    top: 190px;
+    left: 85px;
+}
+.Second-portion-btn
+{
+    border-radius: 20px;
+    background-color: #50d387;
+    color: black;
+    padding: 5px;
+    border: none;
+    position: relative;
+    width: 100px;
+    top: 190px;
+    left: 85px;
+}
+.second-portion
+{
+    background-image: url(https://developer.pinelabs.com/img/indexpage/Banner-1.png);
+    width: 100%;
+    height: 41vw;
+    display: flex;
+    column-gap: 0%;
+    margin-top: 59px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 39px 23px;
+    justify-items: center;
+    align-items: center;
+  
+}
+.left-portion-content
+{
+    position: relative;
+    bottom: 155px;
+}
+.know_More_btn
+{
+    position: relative;
+    top: 13rem;
+    left: 5rem;
+    border-radius: 20px;
+    background-color: #50d387;
+    border: none;
+    padding: 9px 15px;
+}
+.content1
+{
+    font-size: 4vw;
+    font-weight: 700;
+    font-family: 'Poppins';
+    text-align: left;
+    color: #ffffff ;
+}
+.content1>span
+{
+    font-family: sans-serif;
+    font-weight: 800;
+    letter-spacing: -2px;
+}
+.content1_second_part
+{
+    color: #50D387;
+}
+.know_More_btn
+{
+    position: relative;
+    top: 13rem;
+    left: 5rem;
+    border-radius: 40px;
+    background-color: #50d387;
+    border: none;
+    padding: 12px 20px;
+    font-family: inherit;
+    font-weight: 500;
+}
+
+/* -------------Thrid-portion-----------------*/
+
+.Thrid_portion_Heading,.Fourth_portion_Heading
+{
+    text-align: center;
+    margin-top: 25px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}
+.Thrid_portion_Head_Details
+{
+    text-align: center;
+    margin-top: 10px;
+    font-weight: 500;
+    font-size: 20px;
+}
+.card-title
+{
+    font-size: 20px;
+    font-weight: 700;
+}
+.card-body>.btn{
+    border-radius: 40px;
+    background-color: #50d387;
+    border: none;
+    padding: 8px 30px;
+    font-family: inherit;
+    font-weight: 500;
+    color: white;
+}
+.card
+{
+    box-shadow: 0px 0px 30.594493865966797px rgba(0, 0, 0, 0.25);
+}
+.card:hover
+{
+    transform: scale(1.05);
+    transition: 0.3s ease-in-out;
+}

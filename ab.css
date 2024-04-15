@@ -1,0 +1,28 @@
+/* ------------Header----------- */
+.navbar-nav
+{
+    gap: 2em;
+}
+.nav-item
+{
+    font-size: larger;
+    font-weight: 500;
+}
+.About_Details
+{
+    max-width: 600px;
+}
+.container-fluid {
+    display: flex;
+    justify-content: center;
+}
+
+.About-Details {
+    max-width: 600px;
+    text-align: center;
+    margin: 0 auto;
+}details {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+}

@@ -19,9 +19,29 @@
           <a class="navbar-brand" href="#">
             <img src="https://www.pinelabs.com/img/logo.png?version=6.1.9" alt="Comapany_Logo">
           </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+          <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button> -->
+
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#demo">
             <span class="navbar-toggler-icon"></span>
           </button>
+
+          <!-- Offcanvas Sidebar -->
+          <div class="offcanvas offcanvas-start" id="demo">
+            <div class="offcanvas-header">
+              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"></button>
+            </div>
+            <div class="offcanvas-body">
+              <p>Some text lorem ipsum.</p>
+              <p>Some text lorem ipsum.</p>
+              <button class="btn btn-secondary" type="button">A Button</button>
+            </div>
+          </div>
+
+
+
+          <!--                    --------------------------------- -->
           <div class="collapse navbar-collapse" id="collapsibleNavbar">
             <ul class=" nav justify-content-end" >
               <li class="nav-item">
@@ -64,11 +84,12 @@
         </div>
       </div>
 
+
       <!----------------- Thrid-Portion ------------------>
 <h1 class="Thrid_portion_Heading">Billing integration modes</h1>
 <p class="Thrid_portion_Head_Details">Explore our flexible integration options to tailor your experience.</p>
 
-<div class="container-fluid">
+<div class="container-fluid cards">
     <div class="row">
         <div class="col-12 col-sm-6  col-lg-3">
           <div class="card"> 
@@ -131,6 +152,7 @@
          <!----------------- Forth-Portion -------------->
 
          <h1 class="Fourth_portion_Heading mt-5 mb-5">Benefits</h1>
+         <span class="Fourth_portion">
          <div class="container">
          <div class="row" class="Fourth_portion_image">
             <div class="col-12 col-md-6">
@@ -148,7 +170,7 @@
 
 
         <div class="container mt-5">
-          <div class="row">
+          <div class="row" id="Second-card">
              <div class="col-12 col-md-6 d-flex align-items-center">
                <div>
                  <h4>Error free environment</h4>
@@ -177,7 +199,7 @@
         </div>
 
         <div class="container mt-5">
-          <div class="row">
+          <div class="row" id="last-card">
              <div class="col-12 col-md-6 d-flex align-items-center">
                <div>
                  <h4>Error free environment</h4>
@@ -189,7 +211,7 @@
         </div>
           </div>
          </div>
-
+        </span>
 
          <!-- Fivth-portion(Before-footer)---->
 

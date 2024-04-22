@@ -19,7 +19,7 @@
 }
 .nav-item
 {
-    font-size:large;
+    /* font-size:large; */
     font-weight: 400;
 }
 
@@ -51,6 +51,11 @@
 }
 
 
+
+.Forth-Portion,.Fivth-portion
+{
+    overflow-x: hidden;
+}
 
 .Forth-Portion>.row
 {

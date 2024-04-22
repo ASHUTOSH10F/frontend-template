@@ -87,43 +87,40 @@ body
 }
 .col-4:hover
 {
-    transform: scale(1.05);
-    transition: 1s;
-    transform: scaleY(1.09);
+    /* transition: 2s; */
+    transform: scale(1.01);
+    /* border: 1px solid yellowgreen; */
+    /* box-shadow: 2px 0px 2px rgb(232, 248, 199); */
+    border-radius: 10px;
 }
 
 
 /* skiill */
 
-.skills {
-    position: relative;
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    border: 10px solid #ccc;
-  }
-  
-  .skill {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    clip: rect(0, 100px, 200px, 0);
-    border-radius: 50%;
-  }
-  
-  .skill:nth-child(1) {
-    background-image: conic-gradient(#4caf50 0% var(--skill-1, 0%));
-  }
-  
-  .skill:nth-child(2) {
-    background-image: conic-gradient(#2196f3 0% var(--skill-2, 0%));
-  }
-  
-  .skill:nth-child(3) {
-    background-image: conic-gradient(#ff9800 0% var(--skill-3, 0%));
-  }
-  
-  .skill:nth-child(4) {
-    background-image: conic-gradient(#f44336 0% var(--skill-4, 0%));
-  }
-  
+.skill>.row
+{
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 50px;
+}
+.col
+{
+    display: flex;
+    justify-content: center;
+}
+.progress
+{
+    width: 530px;
+    height: 20px;
+    font-weight: 500;
+    font-size: medium;
+}
+.progress:hover
+{
+    transform: scale(1.01);
+    transition: 1s;
+    border: 1px groove yellowgreen;
+    box-shadow: 0px 0px 5px yellow;
+    cursor: pointer;
+    border: 1px solid yellowgreen;
+}

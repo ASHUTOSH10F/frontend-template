@@ -1,0 +1,119 @@
+/*--------------- Navbar-portion -------------------*/
+.body
+{
+    overflow: hidden !important;
+}
+.Comapany-Logo
+{
+    width: 100px;
+    border-radius: 5px;
+    box-shadow: 3px 0px 15px lightgray;
+}
+#collapsibleNavbar
+{
+    justify-content: center;
+}
+.navbar-nav
+{
+    gap: 10px;
+}
+.nav-item
+{
+    font-size:large;
+    font-weight: 400;
+}
+
+.carousel-item>img
+{
+    width: 100%;
+    height: 500px;
+}
+.carousel-caption
+{
+   bottom: 200px !important;
+}
+
+
+
+.content1,.content2
+{
+    text-align: center;
+    font-size: 18px;
+}
+
+.fourth-heading
+{
+    text-align: center;
+    font-weight: 700;
+    margin-top: 52px;
+    font-size: x-large;
+    margin-left: 30px;
+}
+
+
+
+.Forth-Portion>.row
+{
+    justify-content: center !important;
+}
+
+.hr-word
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+hr
+{
+    width: 50px;
+}
+
+.hr-word:hover hr {
+    transform: rotate(30deg); /* Rotate the line on hover */
+    transition: 1s ease;
+  }
+
+
+
+  /* -------------fivth-portion--------- */
+  .Fivth-portion
+  {
+    background: rgb(51,49,49);
+    background: linear-gradient(90deg, rgba(51,49,49,0.9416141456582633) 0%, rgba(218,221,187,1) 0%, rgba(32,32,30,1) 100%, rgba(0,212,255,1) 100%);
+    height: 300px;
+    
+  }
+.Fivth-portion>.row>.col-4
+{
+    padding: 45px 30px;
+    font-size: xxx-large;
+}
+.Fivth-portion>.row>.col-8>p
+{
+    padding: 45px 30px;
+    font-size:larger;
+    color: white;
+}
+.project-details
+{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 100px;
+}
+.project-details>.box>span{
+    font-size: x-large;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 700;
+}
+.box
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.six-portion-head
+{
+    text-align: center;
+    font-size: larger;
+}

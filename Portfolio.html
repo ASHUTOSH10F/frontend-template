@@ -92,23 +92,36 @@
     </div> 
     <!------------ Skill-portion --------------->
 
+    
     <h2 class="text-white text-center mt-5">Skills</h2>
-    <div class="container p-5">
-        <div class="skills">
-            <div class="skill" data-skill="90"></div>
-            <div class="skill" data-skill="75"></div>
-            <div class="skill" data-skill="60"></div>
-            <div class="skill" data-skill="45"></div>
-          </div>
+   <div class="conatiner text-center skill">
+    <div class="row">
+      <div class="col"><div class="progress">
+        <div class="progress-bar bg-warning" style="width:90%;">HTML</div>
+      </div>
     </div>
-    <div class="row col -12">
-        <div class="col">
-            skills
-            <div class="progress-bar bg-dark">
-
-            </div>
+      <div class="col">
+        <div class="progress">
+          <div class="progress-bar bg-warning" style="width:85%;">CSS</div>
         </div>
+      </div>
+      <div class="col">
+        <div class="progress">
+          <div class="progress-bar bg-warning" style="width:80%;">Bootstrap</div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="progress">
+          <div class="progress-bar bg-warning" style="width:75%;">JS</div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="progress">
+          <div class="progress-bar bg-warning" style="width:30%;">React</div>
+        </div>
+      </div>
     </div>
+   </div>
     
 
     
@@ -121,11 +134,6 @@
      backSpeed:150,
      loop:true
      })
-     document.querySelectorAll('.skill').forEach(skill => {
-  const skillLevel = skill.dataset.skill;
-  skill.style.setProperty('--skill-' + skillLevel, skillLevel + '%');
-});
-
 </script>
 </body>
 </html>

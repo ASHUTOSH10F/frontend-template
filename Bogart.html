@@ -1,25 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <title>Task</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="Bogart.css">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-</head>
-<body>
-
-    <!----- Navbar-section------>  
-    <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+  <head>
+    <title>Task</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="Bogart.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  </head>
+  <body>
+    <!----- Navbar-section------>
+    <div id="load"></div>
+    <div id="contents">
+      <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
         <div class="container">
           <a class="navbar-brand" href="#">
-            <img src="Imges/logo.jpg" alt="Comapany-Logo" class="Comapany-Logo">
+            <img
+              src="Imges/logo.jpg"
+              alt="Comapany-Logo"
+              class="Comapany-Logo"
+            />
           </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+          <button
+            class="navbar-toggler d-sm-none"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#collapsibleNavbar"
+          >
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <div class="collapse navbar-collapse d-sm-block" id="collapsibleNavbar">
             <ul class="navbar-nav">
               <li class="nav-item">
                 <a class="nav-link" href="#">Home</a>
@@ -38,7 +51,7 @@
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Sustainability & CSR</a>
-              </li>    
+              </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Media Room</a>
               </li>
@@ -50,177 +63,233 @@
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">
-                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAALCAMAAABBPP0LAAAAt1BMVEWSmb66z+18msdig8La3u+tYX9IaLc7W7BagbmcUW+kqMr/q6n+//+hsNv/lIr/jIGMnNLJyOP9/fyQttT/wb3/////aWn+YWF5kNT0oqz0i4ueqtIZNJjhvt/8gn//WVr/6+rN1+o9RKZwgcMPJpX/VFT9UEn+RUX8Ozv2Ly+FGzdYZrfU1e/8LS/lQkG/mbVUX60AE231hHtcdMb0mp3qYFTFwNu3w9prcqSURGNDaaIUMX5FNW5wYt7AAAAAjklEQVR4AR3HNUJEMQCGwf+L8RR36ajR+1+CEuvRdd8kK9MNAiRQNgJmVDAt1yM6kSzYVJUsPNssAk5N7ZFKjVNFAY4co6TAOI+kyQm+LFUEBEKKzuWUNB7rSH/rSnvOulOGk+QlXTBqMIrfYX4tSe2nP3iRa/KNK7uTmWJ5a9+erZ3d+18od4ytiZdvZyuKWy8o3UpTVAAAAABJRU5ErkJggg==" alt="">
+                  <img
+                    src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAALCAMAAABBPP0LAAAAt1BMVEWSmb66z+18msdig8La3u+tYX9IaLc7W7BagbmcUW+kqMr/q6n+//+hsNv/lIr/jIGMnNLJyOP9/fyQttT/wb3/////aWn+YWF5kNT0oqz0i4ueqtIZNJjhvt/8gn//WVr/6+rN1+o9RKZwgcMPJpX/VFT9UEn+RUX8Ozv2Ly+FGzdYZrfU1e/8LS/lQkG/mbVUX60AE231hHtcdMb0mp3qYFTFwNu3w9prcqSURGNDaaIUMX5FNW5wYt7AAAAAjklEQVR4AR3HNUJEMQCGwf+L8RR36ajR+1+CEuvRdd8kK9MNAiRQNgJmVDAt1yM6kSzYVJUsPNssAk5N7ZFKjVNFAY4co6TAOI+kyQm+LFUEBEKKzuWUNB7rSH/rSnvOulOGk+QlXTBqMIrfYX4tSe2nP3iRa/KNK7uTmWJ5a9+erZ3d+18od4ytiZdvZyuKWy8o3UpTVAAAAABJRU5ErkJggg=="
+                    alt=""
+                  />
                 </a>
               </li>
             </ul>
           </div>
+        </div>
       </nav>
 
       <!--------------- second-portion------------>
 
-<div class="conatiner">
-    <!-- Carousel -->
-<div id="demo" class="carousel slide" data-bs-ride="carousel">
+      <div class="conatiner">
+        <!-- Carousel -->
+        <div id="demo" class="carousel slide" data-bs-ride="carousel">
+          <!-- Indicators/dots -->
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#demo"
+              data-bs-slide-to="0"
+              class="active"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#demo"
+              data-bs-slide-to="1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#demo"
+              data-bs-slide-to="2"
+            ></button>
+          </div>
 
-    <!-- Indicators/dots -->
-    <div class="carousel-indicators">
-      <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
-      <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
-      <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
-    </div>
-    
-    <!-- The slideshow/carousel -->
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img src="Imges/img1 (1).jpg" alt="Los Angeles" class="d-block">
-        <div class="carousel-caption">
-          <h3>AN INTREGATED BULIDING COMPANY</h3>
-          <button>What We Do</button>
-        </div>
-      </div>
-      <div class="carousel-item">
-        <img src="Imges/img1 (2).jpg" alt="Chicago" class="d-block">
-        <div class="carousel-caption">
-          <h3>EXCEPTIONAL BULIDING</h3>
-          <button>What We Do</button>
-        </div> 
-      </div>
-      <div class="carousel-item">
-        <img src="Imges/img1 (3).jpg" alt="New York" class="d-block">
-        <div class="carousel-caption">
-            <h3>EXCEPTIONAL BULIDING</h3>
-            <button>What We Do</button>
-        </div>  
-      </div>
-    </div>
-    
-    <!-- Left and right controls/icons -->
-    <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon"></span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
-      <span class="carousel-control-next-icon"></span>
-    </button>
-  </div>
-</div>
-</div>
-
-<!------------ Thrid-portion-------------->
-
-<section class="Thrid-Portion">
-<div class="container">
-    <div class="row">
-        <div class="col-12 mt-5">
-            <p class="content1">Bog’Art is an integrated building company based in Bucharest and is one of the largest general contractors in Romania. The company is a family business established in 1991 and has become a market leader in civil construction.</p>
-            <p class="content2">We are most reputable for landmark projects requiring complex and innovative technical solutions. Our hands-on management and highly qualified staff promote a client-oriented culture that aims to optimize processes. We achieve quality performance and timely completion of our projects through our full range of building services.</p>
-        </div>
-    </div>
-</div>
-</section>
-
-
-<!------------------- Fourth-portion ------------->
-
-<h2 class="fourth-heading">At a glance:</h2>
-<div class="contanier mt-4 Forth-Portion">
-    <div class="row">
-        <div class="col-3">
-            <div class="hr-word">
-                <hr>
-                <div>THE BOGART TEAM</div>
+          <!-- The slideshow/carousel -->
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="Imges/img1 (1).jpg" alt="Los Angeles" class="d-block" />
+              <div class="carousel-caption">
+                <h3>AN INTREGATED BULIDING COMPANY</h3>
+                <button>What We Do</button>
               </div>
-        </div>
-        <div class="col-3">
-            <div class="hr-word">
-                <hr>
-                <div>OUR VALUSE AND STATRAGY</div>
-              </div>
-        </div>
-        <div class="col-3">
-            <div class="hr-word">
-                <hr>
-                <div>OUR ACHIVEMENTS</div>
-              </div>
-        </div>
-    </div>
-</div>
-
-
-<!--------------- Fivth-portion -------------->
- 
-<section class="Fivth-portion-start mt-5">
-    <div class="Fivth-portion">
-     <div class="row">
-        <div class="col-4">
-            <p class="text-white">Key <span class="text1-fivth-portion">FIGURE</span></p>
-        </div>
-        <div class="col-8">
-           <p>Our continuous growth is sustained by always implementing cutting-edge technology and delivering the highest quality services as a general contractor. This has allowed us to secure some of the largest projects across the Romanian market.</p>
-        </div>
-     </div>
-     <div class="row">
-        <div class="col-2">
-          
-        </div>
-        <div class="col-10">
-            <div class="project-details">
-            <p class="box">
-                <span>30</span>
-                <span>years of activity
-                </span>
-            </p>
-            <p class="box">
-                <span>600+</span>
-                <span>Projects</span>
-            </p>
-            <p class="box">
-             <span>3</span>
-                <span>million sqm delivered
-                </span>
-            </p>
             </div>
+            <div class="carousel-item">
+              <img src="Imges/img1 (2).jpg" alt="Chicago" class="d-block" />
+              <div class="carousel-caption">
+                <h3>EXCEPTIONAL BULIDING</h3>
+                <button>What We Do</button>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="Imges/img1 (3).jpg" alt="New York" class="d-block" />
+              <div class="carousel-caption">
+                <h3>EXCEPTIONAL BULIDING</h3>
+                <button>What We Do</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Left and right controls/icons -->
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#demo"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon"></span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#demo"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon"></span>
+          </button>
         </div>
-     </div>
-    </div>
+      </div>
 
-</section>
+      <!------------ Thrid-portion-------------->
 
-
-<section class="Sixth-portion mt-5">
-<div class="container">
-<div class="row">
-    <div class="col-12 col-md-4">
-        <h5 class="text-center mb-4">Ongoing Projects</h5>
-        <div class="card w-100">
-            <img class="card-img-top" src="https://www.bogart.ro/wp-content/uploads/2016/12/bridge-1024x768.jpg" alt="Card image" >
+      <section class="Thrid-Portion">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 mt-5">
+              <p class="content1">
+                Bog’Art is an integrated building company based in Bucharest and
+                is one of the largest general contractors in Romania. The
+                company is a family business established in 1991 and has become
+                a market leader in civil construction.
+              </p>
+              <p class="content2">
+                We are most reputable for landmark projects requiring complex
+                and innovative technical solutions. Our hands-on management and
+                highly qualified staff promote a client-oriented culture that
+                aims to optimize processes. We achieve quality performance and
+                timely completion of our projects through our full range of
+                building services.
+              </p>
+            </div>
           </div>
-    </div>
+        </div>
+      </section>
 
-    <div class="col-12 col-md-4">
-        <h5 class="text-center mb-4">Activities</h5>
-        <div class="card w-100">
-            <img class="card-img-top" src="https://www.bogart.ro/wp-content/uploads/2019/04/bogart-video-room.jpg" alt="Card image" >
+      <!------------------- Fourth-portion ------------->
+
+      <div class="contanier mt-4 Forth-Portion">
+        <h2 class="fourth-heading">At a glance:</h2>
+        <div class="row">
+          <div class="col-4">
+            <div class="hr-word">
+              <hr />
+              <div>THE BOGART TEAM</div>
+            </div>
           </div>
-    </div>
-
-    <div class="col-12 col-md-4">
-        <h5 class="text-center mb-4">Video Room</h5>
-        <div class="card w-100">
-            <img class="card-img-top" src="https://www.bogart.ro/wp-content/uploads/2016/12/bridge-1024x768.jpg" alt="Card image" >
-
+          <div class="col-4">
+            <div class="hr-word">
+              <hr />
+              <div>OUR VALUSE AND STATRAGY</div>
+            </div>
           </div>
+          <div class="col-4">
+            <div class="hr-word">
+              <hr />
+              <div>OUR ACHIVEMENTS</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--------------- Fivth-portion -------------->
+
+      <section class="Fivth-portion-start mt-5">
+        <div class="Fivth-portion">
+          <div class="row">
+            <div class="col-4">
+              <p class="text-white">
+                Key <span class="text1-fivth-portion">FIGURE</span>
+              </p>
+            </div>
+            <div class="col-8">
+              <p>
+                Our continuous growth is sustained by always implementing
+                cutting-edge technology and delivering the highest quality
+                services as a general contractor. This has allowed us to secure
+                some of the largest projects across the Romanian market.
+              </p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-2"></div>
+            <div class="col-10">
+              <div class="project-details">
+                <p class="box">
+                  <span>30</span>
+                  <span>years of activity </span>
+                </p>
+                <p class="box">
+                  <span>600+</span>
+                  <span>Projects</span>
+                </p>
+                <p class="box">
+                  <span>3</span>
+                  <span>million sqm delivered </span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="Sixth-portion mt-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-md-4">
+              <h5 class="text-center mb-4">Ongoing Projects</h5>
+              <div class="card w-100">
+                <img
+                  class="card-img-top"
+                  src="https://www.bogart.ro/wp-content/uploads/2016/12/bridge-1024x768.jpg"
+                  alt="Card image"
+                />
+              </div>
+            </div>
+
+            <div class="col-12 col-md-4">
+              <h5 class="text-center mb-4">Activities</h5>
+              <div class="card w-100">
+                <img
+                  class="card-img-top"
+                  src="https://www.bogart.ro/wp-content/uploads/2019/04/bogart-video-room.jpg"
+                  alt="Card image"
+                />
+              </div>
+            </div>
+
+            <div class="col-12 col-md-4">
+              <h5 class="text-center mb-4">Video Room</h5>
+              <div class="card w-100">
+                <img
+                  class="card-img-top"
+                  src="https://www.bogart.ro/wp-content/uploads/2016/12/bridge-1024x768.jpg"
+                  alt="Card image"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
-</div>
-</div>
-</section>
 
-
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.4.3/dist/js/bootstrap.bundle.min.js"></script>
-</body>
-</html>
-
-
-</body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.4.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+      document.onreadystatechange = function () {
+        var state = document.readyState;
+        if (state == "interactive") {
+          document.getElementById("contents").style.visibility = "hidden";
+        } else if (state == "complete") {
+          setTimeout(function () {
+            document.getElementById("interactive");
+            document.getElementById("load").style.visibility = "hidden";
+            document.getElementById("contents").style.visibility = "visible";
+          }, 2000);
+        }
+      };
+    </script>
+  </body>
 </html>

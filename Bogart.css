@@ -122,3 +122,42 @@ hr
     text-align: center;
     font-size: larger;
 }
+
+
+#load{
+    width:100%;
+    height:100%;
+    position:fixed;
+    z-index:9999;
+    background:url("https://static.javatpoint.com/csspages/images/css-loader4.gif") no-repeat center center rgba(0,0,0,0.25)
+}
+
+@media screen and (max-width: 770px)
+{
+    .nav-item
+{
+    font-size: 15px;
+}
+}
+
+
+@media screen and (max-width: 425px) {
+    .Fivth-portion>.row>.col-4 {
+        padding: 10px 30px;
+        font-size: x-large;
+    }
+    .Fivth-portion>.row>.col-8>p {
+        padding: 10px 30px;
+        font-size: small;
+    }
+    .project-details {
+        margin-left: -60px;
+        gap: 20px;
+    }
+    .project-details>.box>span {
+        font-size: x-large;
+        font-weight: 600;
+        font-size: 10px;
+    }
+
+}

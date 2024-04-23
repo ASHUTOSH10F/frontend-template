@@ -74,7 +74,8 @@
 {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 10px;
 }
 hr
 {
@@ -87,7 +88,10 @@ hr
   }
 
 
+.header{
+    transition: all .5s cubic-bezier(.165,.84,.44,1);
 
+}
   /* -------------fivth-portion--------- */
   .Fivth-portion
   {
@@ -140,6 +144,49 @@ hr
     background:url("https://static.javatpoint.com/csspages/images/css-loader4.gif") no-repeat center center rgba(0,0,0,0.25)
 }
 
+/* ------saven------------- */
+
+.Saventh-mainrow
+{
+    padding: 15px;
+}
+.right-potion-mainrow
+{
+text-transform: capitalize;
+font-weight: 700;
+text-align: justify;
+letter-spacing: -1px;
+}
+.card-button>button
+{
+    width: 80px;
+    padding: 3px;
+    border: 1px solid;
+}
+/* .last-portion>.row
+{
+    
+} */
+.last-portion
+{
+    overflow: hidden;
+    height: 300px;
+    background: #1b1b1b;
+    padding: 150px 50px;
+}
+.col-9>.row
+{
+    color: whitesmoke;
+    text-align: center;
+}
+.last-portion>.col-9>.col-3>.row
+{
+    flex-direction: column;
+    text-align: end;
+}
+ul>li{
+    text-align: justify;
+}
 @media screen and (max-width: 770px)
 {
     .nav-item

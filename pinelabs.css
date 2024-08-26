@@ -1,26 +1,8 @@
-.container-fluid
-{
-    padding-left: 70px;
-}
-.Navbar_btn
-{
-    border-radius: 20px;
-    background-color: #50d387;
-    color: black;
-    padding: 5px;
-    border: none;
-    width: 100px;
-}
-.nav-item>a
-{
-    color: black;
-    font-weight: 500;
-}
-.navbar-collapse>ul
-{
-    display: flex;
-    align-items: center;
-}
+
+
+
+
+
 /* Second-portion */
 .content1
 {
@@ -54,12 +36,11 @@
 }
 .second-portion
 {
-    background-image: url(https://developer.pinelabs.com/img/indexpage/Banner-1.png);
+    background-image: url(Imges/pinelabs1.png);
     width: 100%;
     height: 41vw;
     display: flex;
     column-gap: 0%;
-    margin-top: 59px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -325,7 +306,10 @@
     
 }
 @media screen and (max-width: 375px) {
-
+    .bg-light
+    {
+    padding: 0px;
+    }
 }
 @media screen and (max-width: 320px) {
 

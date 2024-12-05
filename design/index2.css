@@ -1,0 +1,217 @@
+.logo>img
+{
+    border: 1px groove;
+    border-radius: 62px;
+    height: 95px;
+    margin: 5px;
+    box-shadow: 0px 0px 22px white;
+}
+.head
+{
+ height: 600px;
+ width: auto; 
+ background-color: lightgoldenrodyellow;
+ /* border: 1px solid; */
+ background-image: url(image/image3.jpg);
+ background-size: 100% 100%;
+ filter: grayscale(100%);
+}
+.head>h1
+{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+.head>p
+{
+    text-align: center;
+    font-size: medium;
+    text-transform: uppercase;
+    color: black;
+    word-spacing: 10px;
+    font-family: cursive;
+    line-height: 30px;
+    margin-top: -15px;
+}
+.head>button
+{
+    width: 260px;
+    height: 35px;
+    background-color: white;
+    color: black;
+    font-size: medium;
+    text-transform: uppercase;
+    margin-left: 530px;
+    border-radius: 5px;
+    box-shadow: 5px 0px 30px 0px;
+    cursor: pointer;
+    border: 2px groove;
+}
+/* ---------second-portion ------------*/
+.box
+{
+    height: 250px;
+    width: auto;
+    background-color: darkgray;
+    padding-top: 25px;
+}
+.box-heading
+{
+    text-transform: uppercase;
+    font-size: xx-large;
+    padding: 20px;
+    font-family: system-ui;
+     margin-top: -50px;
+    font-weight: 500;
+    color: white;
+}
+.box1
+{
+    height: 200px;
+    width: 425px;
+    margin-left: 132px;
+    color: white;
+    text-transform: capitalize;
+    font-size: medium;
+}
+.box1>button,.box2>button
+{
+    width: 215px;
+    height: 30px;
+    text-transform: uppercase;
+    font-weight: 600;
+    word-spacing: 5px;
+    background: transparent;
+    border: 2px solid white;
+    box-shadow: 0px 6px 17px;
+    cursor: pointer;
+}
+.box2
+{
+    height: 200px;
+    width: 425px;
+    margin-left: 132px;
+    color: white;
+    text-transform: capitalize;
+    font-size: medium;
+}
+/*---------------------- card-portion--------------- */
+.thred-portion
+{
+display: flex;
+justify-content: space-evenly;
+flex-wrap: wrap;
+margin-bottom: 25px;
+}
+.card>img
+{
+    height: 234px;
+    width: 234px;
+    border: 2px groove;
+    margin-top: 30px;
+    border-radius: 15px 15px 0px 0px ;
+}    
+.card>img:hover
+{
+    transform: rotateY(180deg);
+    transition: 1s;
+    box-shadow: 0px 2px 5px darkorange;
+    cursor: pointer;
+    border-radius: 0px 30px 0px 30px;
+    transition-duration: 1s;
+    transition-timing-function: ease-in;
+}
+.card>button
+{
+    width: 238px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    background-color: transparent;
+    cursor: pointer;
+}
+.forth-portion>.box>h3
+{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: system-ui;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+    margin-top: 60px;
+    color: white;
+}
+.forth-portion>.box>button
+{
+    margin-left: 585px;
+    width: 160px;
+    height: 30px;
+    color: white;
+    background: transparent;
+    text-transform: uppercase;
+    border: 1px solid;
+    cursor: pointer;
+}
+td>img
+{
+    height: 255px;
+    width: 380px;
+    box-shadow: 0px 5px 15px 5px;
+}
+form
+{
+    justify-items: end;
+    line-height: 26px;
+     margin-top: 0px;
+    margin-left: 150px;
+    display: table-caption;
+}
+form>button
+{
+    width: 215px;
+    margin-left: 30px;
+    height: 35px;
+    margin-top: 21px;
+    background-color: transparent;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 4px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.right-portion
+{
+    margin-top: -65px;
+}
+.five-portion>center
+{   
+     font-size: xx-large;
+    text-transform: uppercase;
+    margin-top: 85px;
+    font-family: system-ui;
+    font-weight: 600;
+    margin-bottom: 80px;
+}
+input
+{
+    width: 270px;
+    border: none;
+    border-bottom: 1px solid;
+   
+}
+.icon
+{
+    display: grid;
+    gap: 50px;
+    margin-left: 350px;
+}
+#last-btn
+{
+    position: relative;
+    left: 625px;
+    top: 60px;
+    height: 25px;
+    width: 100px;
+    background-color: lightgray;
+    border-radius: 20px;
+    font-size: medium;
+    font-weight: 800;
+}
